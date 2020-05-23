@@ -1,0 +1,382 @@
+body
+{
+	background:#202020;
+	color:#fff;
+	font:18px/28px 'Raleway', sans-serif;
+	font-weight:300;
+}
+
+
+a, a:hover
+{
+	color:#fff;
+}
+
+input:focus
+{ 
+  background-color: yellow;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	font-family:'Coustard', sans-serif;
+	margin:0;
+	padding:0;
+	font-weight:300;
+}
+
+h1
+{
+	font-size:72px;
+}
+
+h2
+{
+	font-size:40px;
+}
+
+h3
+{
+	font-size:36px;
+}
+
+h4
+{
+	font-size:30px;
+}
+
+h5
+{
+	font-size:24px;
+}
+
+h6
+{
+	font-size:18px;
+}
+
+.navbar .nav-link
+{
+    font-size:14px;
+    text-transform:uppercase;
+    padding-left:1em !important;
+    padding-right:1em !important;
+
+}
+
+.navbar .nav-item.active
+{
+    border-left: #444 3px solid;
+}
+
+#showcase
+{
+    text-shadow: 5px 2px 4px black;
+}
+.carousel-item
+{
+  height: 750px;
+    
+}
+
+.carousel-image-0
+{
+  background: url("../img/2.jpg");
+  background-size: cover;
+}
+
+.carousel-image-1
+{
+  background: url("../img/1.jpg");
+  background-size: cover; 
+}
+
+.carousel-image-2 
+{
+  background: url("../img/3.jpg");
+  background-size: cover; 
+}
+
+.carousel-image-3 
+{
+  background: url("../img/4.jpg");
+  background-size: cover; 
+}
+
+.carousel-image-4
+{
+  background: url("../img/6.png");
+  background-size: cover; 
+}
+
+
+.carousel-caption
+{
+    margin:auto;
+    text-align:center;
+    text-shadow: 5px 2px 4px black;
+    background-color:rgba(53,58,64,0.7);
+    border-radius: 10px;
+}
+    
+.header-overlay
+{
+    background: url("../img/5.jpg") 50% 50% no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    height: 600px;
+    text-align: center;
+    color: white;
+    text-shadow: 5px 3px 4px black;
+}
+
+
+.slider-logo
+{
+  width: 700px;
+  margin: 0px auto;
+}
+
+.supply-services-overlay
+{
+    background: url("../img/222.jpg") 50% 50% no-repeat;
+    background-size:cover;
+    height: 600px;
+}
+
+.sora-air-overlay
+{
+    background: url("../img/air.jpg") 50% 50% no-repeat;
+    background-size:cover;
+    height: 600px;  
+}
+
+.sora-car-overlay
+{
+    background: url("../img/55.jpg") 50% 50% no-repeat;
+    background-size:cover;
+    height: 600px;  
+}
+
+.sora-mission-overlay
+{
+    background: url("../img/Vision.jpg") 50% 50% no-repeat;
+    background-size:cover;
+    height: 600px;
+}
+.packing-services-overlay
+{
+    background: url("../img/333.jpg") 50% 50% no-repeat;
+    background-size:cover;
+    height: 600px;
+}
+
+.header-services-overlay
+{
+    background: url("../img/services.jpg") 50% 50% no-repeat;
+    background-size:cover;
+    
+    height: 600px;
+    text-align: center;
+    color: white;
+    text-shadow: 5px 3px 4px black;
+}
+
+.main-head
+{
+    text-align:center;
+    color:white;
+    padding:0 0 40px;
+    text-shadow: 5px 3px 3px black;
+}
+
+.main-head h2
+{
+    padding:0 0 20px;
+}
+
+.main-head p
+{
+    font-size:24px;
+    line-height:36px;
+}
+		
+.sblock
+{
+    border:1px solid transparent; 
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.sblock:hover
+{
+    border:1px solid rgba(5, 195, 249, 0.5);
+    background:rgba(5, 195, 249, 0.5); 
+}
+
+#about p
+{ 
+    font-size:16px;
+    color:white;
+    text-shadow: 5px 2px 4px black;
+}
+
+.about-overlay
+{
+    background:rgba(0, 0, 0, 0.9);
+    padding:70px 0;
+}
+
+.home-about-overlay
+{
+    background:rgba(255,255,255,0.1);
+    padding:70px 0;
+}
+
+.home-about-overlay span.fa
+{
+    font-size:60px;
+    text-shadow: 5px 2px 4px black;
+    padding: 40px;
+}
+.main-about
+{
+    text-align:center;
+    color:white;
+    padding:0 0 40px;
+    text-shadow: 5px 3px 3px black;
+}
+
+.main-about h2
+{
+    padding:0 0 20px;
+}
+
+.main-about p
+{
+    font-size:24px;
+    line-height:36px;
+}
+
+#services p
+{ 
+    font-size:16px;
+    color:white;
+    text-shadow: 5px 2px 4px black;
+}
+
+.services-overlay
+{
+    background:rgba(0, 0, 0, 0.9);
+    padding:70px 0;
+}
+
+#services-blocks div
+{
+    text-align:center;
+    padding:20px 20px 30px 20px;
+}
+
+.marine-overlay
+{
+    background:rgba(0, 0, 0, 0.7);
+    padding:70px 0;
+}
+.main-marine
+{
+    text-align:center;
+    color:white;
+    padding:0 0 40px;
+    text-shadow: 5px 3px 3px black;
+}
+
+#services-blocks div span.fa
+{
+    width:110px;
+    height:110px;
+    line-height:110px;
+    font-size:60px;
+    text-shadow: 5px 2px 4px black;
+				
+    color:rgba(255,255,255,1);
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+}
+
+#services-blocks div i.fa
+{
+    width:110px;
+    height:110px;
+    line-height:110px;
+    font-size:60px;
+    text-shadow: 5px 2px 4px black;
+				
+    color:rgba(255,255,255,1);
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+}
+
+#services-blocks h4
+{
+    padding:20px 0;
+    color:white;
+    text-shadow: 5px 2px 4px black;
+}
+
+.main-sora img
+{
+   float: left;
+}
+
+#home-heading
+{
+    position: relative;
+    min-height: 300px;
+    text-align: center;
+    text-shadow: 5px 2px 4px gray;
+    color: black; 
+    font-weight: bold;
+    
+}
+
+.dark-overlay
+{
+  background-color: rgba(255, 255, 255, 1);
+  width: auto;
+  height: 100%;
+}
+
+#contact .msg
+{
+    height: 100px;
+}
+
+#footer
+{
+    position: absolute;
+    width: 100%;
+	font-size:13px;
+	text-align:center;
+    color: white;
+	background-color: rgba(0, 0, 0, 1);  
+}
+
+.p-style
+{
+    margin-bottom: auto;
+}
+
+.copyright
+{
+    font-size:16px;
+}
+
+.slider-container{
+
+    margin: 0 auto;
+    padding-top: 100px
+    
+}
